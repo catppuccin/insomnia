@@ -1,0 +1,35 @@
+{
+    "name": "insomnia-plugin-theme-catppuccin",
+    "version": "1.0.0",
+    "description": "Soothing pastel theme for Insomnia.",
+    "main": "plugin.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/opxop/insomnia-catppuccin.git"
+    },
+    "keywords": [
+        "catppuccin",
+        "theme",
+        "insomnia",
+        "insomnia-plugin"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/opxop/insomnia-catppuccin/issues"
+    },
+    "homepage": "https://github.com/opxop/insomnia-catppuccin#readme",
+    "insomnia": {
+        "name": "catppuccin-theme",
+        "display-name": "Catppuccin Theme",
+        "description": "Soothing pastel theme for Insomnia.",
+        "publisher": {
+            "name": "",
+            "icon": ""
+        },
+        "images": {
+            "icon": "./assets/icon.png",
+            "cover": "./assets/ss.png"
+        }
+    }
+}
