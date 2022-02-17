@@ -13,7 +13,10 @@
         "insomnia",
         "insomnia-plugin"
     ],
-    "author": "",
+    "author": {
+        "name": "Opa Kholis Majid",
+        "url": "https://opakholis.dev"
+    },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/opxop/insomnia-catppuccin/issues"
@@ -24,8 +27,8 @@
         "display-name": "Catppuccin Theme",
         "description": "Soothing pastel theme for Insomnia.",
         "publisher": {
-            "name": "",
-            "icon": ""
+            "name": "Opa Kholis Majid",
+            "icon": "https://avatars.githubusercontent.com/u/49778014?v=4"
         },
         "images": {
             "icon": "./assets/icon.png",
