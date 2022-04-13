@@ -22,8 +22,9 @@ module.exports = {
             info: "#1A1826", // secondary font color for info background		},
         },
         highlight: {
-            default: "#6E6C7E",
+            default: "#6E6C7E", // sidebar highlight color
         },
+        // The styles object targets sub-components of the Insomnia application.
         styles: {
             sidebar: {
                 background: {

@@ -6,26 +6,27 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a>
-    <a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
+    <a href="https://github.com/opxop/insomnia-catppuccin/stargazers"><img src="https://img.shields.io/github/stars/opxop/insomnia-catppuccin?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a>
+    <a href="https://github.com/opxop/insomnia-catppuccin/issues"><img src="https://img.shields.io/github/issues/opxop/insomnia-catppuccin?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
+    <a href="https://github.com/opxop/insomnia-catppuccin/contributors"><img src="https://img.shields.io/github/contributors/opxop/insomnia-catppuccin?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
 </p>
 
 ![Insomnia Theme Preview](assets/ss.png)
 
 ## Usage
 
-#### Manual
+#### Install
 
-```bash
-git clone https://github.com/opxop/insomnia-catppuccin
-cp -r insomnia-catppuccin ~/.config/Insomnia/plugins/insomnia-plugin-theme-catppuccin
-```
+1. In Insomnia, go to _Application_ and select _Preferences_
+2. Click on _Plugins_
+3. Paste `insomnia-plugin-theme-catppuccin` into the package name field
+4. Click on _Install Plugin_
 
-### Apply
+#### Activating theme
 
-1. Open Insomnia
-2. Navigate to **`Preferences > Themes`** and you should see **Catppuccin** theme available.
+1. Go to _Application_ and select _Preferences_
+2. Click on _Themes_
+3. Select **Catppuccin** to apply the theme
 
 ## 💝 Thanks to
 
