@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/opxop/insomnia-catppuccin/stargazers"><img src="https://img.shields.io/github/stars/opxop/insomnia-catppuccin?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a>
-    <a href="https://github.com/opxop/insomnia-catppuccin/issues"><img src="https://img.shields.io/github/issues/opxop/insomnia-catppuccin?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
-    <a href="https://github.com/opxop/insomnia-catppuccin/contributors"><img src="https://img.shields.io/github/contributors/opxop/insomnia-catppuccin?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
+    <a href="https://github.com/opakholis/insomnia-catppuccin/stargazers"><img src="https://img.shields.io/github/stars/opakholis/insomnia-catppuccin?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a>
+    <a href="https://github.com/opakholis/insomnia-catppuccin/issues"><img src="https://img.shields.io/github/issues/opakholis/insomnia-catppuccin?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
+    <a href="https://github.com/opakholis/insomnia-catppuccin/contributors"><img src="https://img.shields.io/github/contributors/opakholis/insomnia-catppuccin?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
 </p>
 
 ![Insomnia Theme Preview](assets/ss.png)

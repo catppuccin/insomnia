@@ -5,7 +5,7 @@
     "main": "plugin.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/opxop/insomnia-catppuccin.git"
+        "url": "git+https://github.com/opakholis/insomnia-catppuccin.git"
     },
     "keywords": [
         "catppuccin",
@@ -19,9 +19,9 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/opxop/insomnia-catppuccin/issues"
+        "url": "https://github.com/opakholis/insomnia-catppuccin/issues"
     },
-    "homepage": "https://github.com/opxop/insomnia-catppuccin#readme",
+    "homepage": "https://github.com/opakholis/insomnia-catppuccin#readme",
     "insomnia": {
         "name": "catppuccin-theme",
         "display-name": "Catppuccin Theme",
