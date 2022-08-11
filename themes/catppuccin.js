@@ -1,39 +1,50 @@
+import colors from "./colors";
+
+const themes = {
+    mocha: "mocha",
+    macchiato: "macchiato",
+    frappe: "frappe",
+    latte: "latte",
+};
+
+const theme = theme.mocha;
+
 module.exports = {
     name: "catppuccin",
     displayName: "Catppuccin",
     theme: {
         background: {
-            default: "#1E1E2E", // primary background color
-            success: "#ABE9B3", // POST request, 200 OK, parameter names
-            notice: "#FAE3B0", // PATCH request
-            warning: "#F8BD96", // PUT request
-            danger: "#F28FAD", // DELETE request
-            surprise: "#DDB6F2", // accent (Dashboard link, GET request,
+            default: colors[`${theme}-base`], // primary background color: ;
+            success: colors[`${theme}-green`], // POST request, 200 OK, parameter names
+            notice: colors[`${theme}-yellow`], // PATCH request
+            warning: colors[`${theme}-lavender`], // PUT request
+            danger: colors[`${theme}-red`], // DELETE request
+            surprise: colors[`${theme}-mauve`], // accent (Dashboard link, GET request,
             // SEND button, branch button, add plugin button)
-            info: "#96CDFB", // OPTIONS and HEAD request
+            info: colors[`${theme}-sapphire`], // OPTIONS AND HEAD request
         },
         foreground: {
-            default: "#D9E0EE", // primary font color
-            success: "#1A1826", // secondary font color for success background
-            notice: "#1A1826", // secondary font color for notice background
-            warning: "#1A1826", // secondary font color for warning background
-            danger: "#1A1826", // secondary font color for danger background
-            surprise: "#1A1826", // secondary font color for surprise background
-            info: "#1A1826", // secondary font color for info background		},
+            default: colors[`${theme}-text`], // primary font color
+            success: colors[`${theme}-surface0`], // secondary font color for success background: ;
+            notice: colors[`${theme}-text`], // secondary font color for notice background
+            warning: colors[`${theme}-surface0`], // secondary font color for warning background
+            danger: colors[`${theme}-surface0`], // secondary font color for danger background
+            surprise: colors[`${theme}-text`], // secondary font color for surprise background
+            info: colors[`${theme}-red`], // secondary font color for info background
         },
         highlight: {
-            default: "#6E6C7E", // sidebar highlight color
+            default:  colors[`${theme}-overlay2`], // sidebar highlight color
         },
         // The styles object targets sub-components of the Insomnia application.
         styles: {
             sidebar: {
                 background: {
-                    default: "#1A1826",
+                    default: colors[`${theme}-base`],
                 },
             },
             dialog: {
                 background: {
-                    default: "#161320",
+                    default: colors[`${theme}-base`],
                 },
             },
             transparentOverlay: {
