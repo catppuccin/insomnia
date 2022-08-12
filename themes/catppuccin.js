@@ -1,4 +1,4 @@
-import colors from "./colors";
+const colors = require("./colors.js");
 
 const themes = {
     mocha: "mocha",
@@ -7,7 +7,7 @@ const themes = {
     latte: "latte",
 };
 
-const theme = theme.mocha;
+const theme = themes.mocha;
 
 module.exports = {
     name: "catppuccin",

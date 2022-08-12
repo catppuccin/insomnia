@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	"latte-rosewater": "#de9584",
 	"frappe-rosewater": "#f2d5cf",
 	"macchiato-rosewater": "#f4dbd6",
