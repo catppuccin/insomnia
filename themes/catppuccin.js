@@ -1,4 +1,5 @@
-const colors = require("./colors.js");
+const { colors } = require("../utils/colors");
+const { capitalize } = require("../utils/helpers");
 
 const themes = {
     mocha: "mocha",
@@ -7,10 +8,10 @@ const themes = {
     latte: "latte",
 };
 
-const makeTheme = (theme) => { 
+const makeTheme = (theme) => {
     return {
         name: `catppuccin-${theme}`,
-        displayName: `Catppuccin ${theme}`,
+        displayName: `Catppuccin ${capitalize(theme)}`,
         theme: {
             background: {
                 default: colors[`${theme}-base`], // primary background color: ;
@@ -32,23 +33,29 @@ const makeTheme = (theme) => {
                 info: colors[`${theme}-red`], // secondary font color for info background
             },
             highlight: {
-                default:  colors[`${theme}-overlay2`], // sidebar highlight color
+                default: colors[`${theme}-overlay2`], // sidebar highlight color
             },
             // The styles object targets sub-components of the Insomnia application.
             styles: {
+                appHeader: {
+                    foreground: {
+                        surprise: colors[`${theme}-surface0`], // header branch button font color
+                    },
+                },
+                paneHeader: {
+                    foreground: {
+                        surprise: colors[`${theme}-base`], // pane accent font color
+                        info: colors[`${theme}-text`], // pane response font color
+                    },
+                },
                 sidebar: {
                     background: {
-                        default: colors[`${theme}-base`],
+                        default: colors[`${theme}-mantle`], // sidebar background color
                     },
                 },
                 dialog: {
                     background: {
-                        default: colors[`${theme}-base`],
-                    },
-                },
-                transparentOverlay: {
-                    background: {
-                        default: "rgba(30, 30, 46, 0.5)",
+                        default: colors[`${theme}-base`], // modal primary background color
                     },
                 },
             },
@@ -57,5 +64,6 @@ const makeTheme = (theme) => {
 };
 
 module.exports = {
-    themes, makeTheme
+    themes,
+    makeTheme,
 };
