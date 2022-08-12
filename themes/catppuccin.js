@@ -7,7 +7,7 @@ const themes = {
     latte: "latte",
 };
 
-const makeTheme = (theme) => { 
+const makeTheme = (theme) => {
     return {
         name: `catppuccin-${theme}`,
         displayName: `Catppuccin ${theme}`,
@@ -32,7 +32,7 @@ const makeTheme = (theme) => {
                 info: colors[`${theme}-red`], // secondary font color for info background
             },
             highlight: {
-                default:  colors[`${theme}-overlay2`], // sidebar highlight color
+                default: colors[`${theme}-overlay2`], // sidebar highlight color
             },
             // The styles object targets sub-components of the Insomnia application.
             styles: {
@@ -57,5 +57,6 @@ const makeTheme = (theme) => {
 };
 
 module.exports = {
-    themes, makeTheme
+    themes,
+    makeTheme,
 };
