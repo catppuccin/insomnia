@@ -1,4 +1,5 @@
 const colors = require("./colors.js");
+const { capitalize } = require("../utils/helpers");
 
 const themes = {
     mocha: "mocha",
@@ -10,7 +11,7 @@ const themes = {
 const makeTheme = (theme) => {
     return {
         name: `catppuccin-${theme}`,
-        displayName: `Catppuccin ${theme}`,
+        displayName: `Catppuccin ${capitalize(theme)}`,
         theme: {
             background: {
                 default: colors[`${theme}-base`], // primary background color: ;
