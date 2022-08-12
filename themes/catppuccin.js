@@ -28,7 +28,7 @@ const makeTheme = (theme) => {
                 notice: colors[`${theme}-text`], // secondary font color for notice background
                 warning: colors[`${theme}-surface0`], // secondary font color for warning background
                 danger: colors[`${theme}-surface0`], // secondary font color for danger background
-                surprise: colors[`${theme}-text`], // secondary font color for surprise background
+                surprise: colors[`${theme}-surface0`], // secondary font color for surprise background
                 info: colors[`${theme}-red`], // secondary font color for info background
             },
             highlight: {
