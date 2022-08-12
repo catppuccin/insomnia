@@ -37,19 +37,25 @@ const makeTheme = (theme) => {
             },
             // The styles object targets sub-components of the Insomnia application.
             styles: {
+                appHeader: {
+                    foreground: {
+                        surprise: colors[`${theme}-surface0`], // header branch button font color
+                    },
+                },
+                paneHeader: {
+                    foreground: {
+                        surprise: colors[`${theme}-base`], // pane accent font color
+                        info: colors[`${theme}-text`], // pane response font color
+                    },
+                },
                 sidebar: {
                     background: {
-                        default: colors[`${theme}-base`],
+                        default: colors[`${theme}-mantle`], // sidebar background color
                     },
                 },
                 dialog: {
                     background: {
-                        default: colors[`${theme}-base`],
-                    },
-                },
-                transparentOverlay: {
-                    background: {
-                        default: "rgba(30, 30, 46, 0.5)",
+                        default: colors[`${theme}-base`], // modal primary background color
                     },
                 },
             },
