@@ -1,4 +1,4 @@
-const colors = require("./colors.js");
+const { colors } = require("../utils/colors");
 const { capitalize } = require("../utils/helpers");
 
 const themes = {
