@@ -1,38 +1,36 @@
 {
-    "name": "insomnia-plugin-theme-catppuccin",
-    "version": "1.0.1",
-    "description": "Soothing pastel theme for Insomnia.",
-    "main": "plugin.js",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/opakholis/insomnia-catppuccin.git"
-    },
-    "keywords": [
-        "catppuccin",
-        "theme",
-        "insomnia",
-        "insomnia-plugin"
-    ],
-    "author": {
-        "name": "Opa Kholis Majid",
-        "url": "https://opakholis.dev"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/opakholis/insomnia-catppuccin/issues"
-    },
-    "homepage": "https://github.com/opakholis/insomnia-catppuccin#readme",
-    "insomnia": {
-        "name": "catppuccin-theme",
-        "display-name": "Catppuccin Theme",
-        "description": "Soothing pastel theme for Insomnia.",
-        "publisher": {
-            "name": "Opa Kholis Majid",
-            "icon": "https://avatars.githubusercontent.com/u/49778014?v=4"
-        },
-        "images": {
-            "icon": "./assets/icon.png",
-            "cover": "./assets/ss.png"
-        }
-    }
+	"name": "insomnia-plugin-catppuccin",
+	"version": "0.1.0",
+	"description": "Soothing pastel theme for Insomnia.",
+	"main": "plugin.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/catppuccin/insomnia.git"
+	},
+	"keywords": [
+		"catppuccin",
+		"theme",
+		"insomnia",
+		"insomnia-plugin"
+	],
+	"author": "Catppuccin Org",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/catppuccin/insomnia/issues"
+	},
+	"homepage": "https://github.com/catppuccin/insomnia#readme",
+	"insomnia": {
+		"name": "catppuccin-theme",
+		"displayName": "Catppuccin Theme",
+		"description": "Soothing pastel theme for Insomnia.",
+		"publisher": {
+			"name": "Catppuccin Org",
+			"icon": "https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png"
+		},
+		"unlisted": false,
+		"images": {
+			"icon": "./assets/icon.png",
+			"cover": "./assets/preview.png"
+		}
+	}
 }
