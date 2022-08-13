@@ -11,7 +11,7 @@
     <a href="https://github.com/opakholis/insomnia-catppuccin/contributors"><img src="https://img.shields.io/github/contributors/opakholis/insomnia-catppuccin?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
 </p>
 
-![Insomnia Theme Preview](assets/ss.png)
+![Insomnia Catppuccin Theme](assets/preview.png)
 
 ## Usage
 
