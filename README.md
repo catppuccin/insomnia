@@ -19,14 +19,14 @@
 
 1. In Insomnia, go to _Application_ and select _Preferences_
 2. Click on _Plugins_
-3. Paste `insomnia-plugin-theme-catppuccin` into the package name field
+3. Paste `insomnia-plugin-catppuccin` into the package name field
 4. Click on _Install Plugin_
 
 #### Activating theme
 
 1. Go to _Application_ and select _Preferences_
 2. Click on _Themes_
-3. Select **Catppuccin** to apply the theme
+3. Select any **Catppuccin** color scheme to apply the theme
 
 ## 💝 Thanks to
 
