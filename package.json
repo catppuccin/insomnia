@@ -1,6 +1,6 @@
 {
 	"name": "insomnia-plugin-catppuccin",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"description": "Soothing pastel theme for Insomnia.",
 	"main": "plugin.js",
 	"repository": {
@@ -30,7 +30,7 @@
 		"unlisted": false,
 		"images": {
 			"icon": "./assets/icon.png",
-			"cover": "./assets/preview.png"
+			"cover": "./assets/previews/preview.webp"
 		}
 	}
 }
