@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/insmonia/main/assets/previews/preview.webp"/>
+	<img src="https://raw.githubusercontent.com/catppuccin/insomnia/main/assets/previews/preview.webp"/>
 </p>
 
 ## Previews
