@@ -40,7 +40,7 @@
 
 1. In Insomnia, go to _Application_ and select _Preferences_
 2. Click on _Plugins_
-3. Paste `insomnia-plugin-catppuccin` into the package name field
+3. Paste `@catppuccin/insomnia-plugin-catppuccin` into the package name field
 4. Click on _Install Plugin_
 
 > [!IMPORTANT]
