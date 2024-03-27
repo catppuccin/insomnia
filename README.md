@@ -43,6 +43,10 @@
 3. Paste `insomnia-plugin-catppuccin` into the package name field
 4. Click on _Install Plugin_
 
+> [!IMPORTANT]
+> If you cannot install the plugin due to errors, see [#4 (comment)](https://github.com/catppuccin/insomnia/issues/4#issuecomment-2021736443)
+> for a potential workaround.
+
 #### Activating theme
 
 1. Go to _Application_ and select _Preferences_
