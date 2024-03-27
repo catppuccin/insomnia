@@ -1,5 +1,5 @@
 {
-	"name": "insomnia-plugin-catppuccin",
+	"name": "@catppuccin/insomnia-plugin-catppuccin",
 	"version": "0.1.2",
 	"description": "Soothing pastel theme for Insomnia.",
 	"main": "plugin.js",
